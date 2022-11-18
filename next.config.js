@@ -4,6 +4,10 @@ const nextConfig = {
     runtime: "experimental-edge",
     appDir: true,
   },
+  i18n: {
+    locales: ["en", "ja"],
+    defaultLocale: "en",
+  },
   reactStrictMode: true,
   swcMinify: true,
 };
